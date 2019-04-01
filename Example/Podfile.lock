@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - YBPlayerRotationManage (0.1.0)
+
+DEPENDENCIES:
+  - Masonry
+  - YBPlayerRotationManage (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  YBPlayerRotationManage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YBPlayerRotationManage: ba783f662af9a891b856a09acc1122e881a8dce1
+
+PODFILE CHECKSUM: e9a7d4b9882e40bc7ff42f65ff558468d0c209c7
+
+COCOAPODS: 1.6.0

@@ -1,0 +1,6 @@
+framework module YBPlayerRotationManage {
+  umbrella header "YBPlayerRotationManage-umbrella.h"
+
+  export *
+  module * { export * }
+}

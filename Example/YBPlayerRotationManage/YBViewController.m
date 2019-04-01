@@ -7,8 +7,12 @@
 //
 
 #import "YBViewController.h"
+#import "YBPlayerView.h"
+#import "Masonry.h"
 
 @interface YBViewController ()
+
+@property (nonatomic, strong) YBPlayerView *playerView;
 
 @end
 
@@ -17,7 +21,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    
+    [self.view addSubview:self.playerView];
+    
+    [self.playerView configPlayerData:nil];
+}
+
+- (YBPlayerView *)playerView
+{
+    if (!_playerView) {
+        CGFloat w = CGRectGetWidth(self.view.bounds);
+        _playerView = [[YBPlayerView alloc] initWithFrame:CGRectMake(0, 80, w, w*9.0/16)];
+    }
+    return _playerView;
 }
 
 - (void)didReceiveMemoryWarning
