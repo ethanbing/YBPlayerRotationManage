@@ -27,15 +27,17 @@ pod 'YBPlayerRotationManage'
 #### 1、在播放器内部添加成员变量，并初始化，传入播放器旋转的view和播放器所承载的view
 
 ```objective-c
-self.rotationManage = [[YBPlayerRotationManage alloc] initWithRotateViewView:self containerView:self.superview];
-//    self.rotationManage.rotationMode = YBRotationModeLandscape;//默认就是横屏模式
-self.rotationManage.orientationWillChange = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
-  //方向将要改变
-};
-self.rotationManage.orientationDidChanged = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
-  //方向已经改变
-
-};
+- (void)setupRotationManage
+{
+    self.rotationManage = [[YBPlayerRotationManage alloc] initWithRotateViewView:self containerView:self.superview];
+    //    self.rotationManage.rotationMode = YBRotationModeLandscape;//默认就是横屏模式
+    self.rotationManage.orientationWillChange = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
+        //方向将要改变
+    };
+    self.rotationManage.orientationDidChanged = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
+        //方向已经改变
+    };
+}
 ```
 
 #### 2、添加全屏和小屏的切换，例如：

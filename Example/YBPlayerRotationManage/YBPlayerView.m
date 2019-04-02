@@ -60,14 +60,18 @@
 
 - (void)configPlayerData:(id)data
 {
+    [self setupRotationManage];
+}
+
+- (void)setupRotationManage
+{
     self.rotationManage = [[YBPlayerRotationManage alloc] initWithRotateViewView:self containerView:self.superview];
-//    self.rotationManage.rotationMode = YBRotationModeLandscape;//默认就是横屏模式
+    //    self.rotationManage.rotationMode = YBRotationModeLandscape;//默认就是横屏模式
     self.rotationManage.orientationWillChange = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
-      //方向将要改变
+        //方向将要改变
     };
     self.rotationManage.orientationDidChanged = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
-      //方向已经改变
-        
+        //方向已经改变
     };
 }
 
