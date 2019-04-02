@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YBPlayerRotationManage : NSObject
 
-- (instancetype)initWithRotateViewView:(UIView *)rotateView containerView:(UIView *)containerView;
+- (instancetype)initWithRotateView:(UIView *)rotateView containerView:(UIView *)containerView;
 /// 小屏状态播放器的容器视图
 @property (nonatomic, weak, readwrite) UIView *containerView;
 /// 是否全屏

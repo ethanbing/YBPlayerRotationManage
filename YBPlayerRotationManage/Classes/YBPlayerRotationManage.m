@@ -26,7 +26,7 @@
 
 @implementation YBPlayerRotationManage
 
-- (instancetype)initWithRotateViewView:(UIView *)rotateView containerView:(UIView *)containerView {
+- (instancetype)initWithRotateView:(UIView *)rotateView containerView:(UIView *)containerView {
     self = [super init];
     if (self) {
         _rotateView = rotateView;

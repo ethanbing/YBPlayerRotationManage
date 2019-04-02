@@ -20,18 +20,23 @@ pod 'YBPlayerRotationManage'
 
 ## Usage
 
-#### 1、在播放器内部添加成员变量，并初始化，传入播放器旋转的view和播放器所承载的view
+#### 1、在播放器内部添加成员变量，并初始化，传入播放器旋转的view和播放器所承载的view. <font color=orange size=3>特别提醒：RotateView不能使用Masonry布局，需要使用frame布局，因为内部是使用frame修改大小的</font>
+
+```objective-c
+@property (nonatomic, strong) YBPlayerRotationManage *rotationManage;
+```
 
 ```objective-c
 - (void)setupRotationManage
 {
-    self.rotationManage = [[YBPlayerRotationManage alloc] initWithRotateViewView:self containerView:self.superview];
-    //    self.rotationManage.rotationMode = YBRotationModeLandscape;//默认就是横屏模式
+    self.rotationManage = [[YBPlayerRotationManage alloc] initWithRotateView:self containerView:self.superview];
+    __weak typeof(self) weakSelf = self;
     self.rotationManage.orientationWillChange = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
         //方向将要改变
     };
     self.rotationManage.orientationDidChanged = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
         //方向已经改变
+//        weakSelf.fullScreen = isFullScreen;
     };
 }
 ```
