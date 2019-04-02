@@ -7,8 +7,8 @@
 //
 
 #import "YBPlayerRotationManage.h"
-#import "YBPlayerRotationController.h"
 #import "YBPlayerRotationTransition.h"
+#import "YBPlayerRotationController.h"
 
 @interface YBPlayerRotationManage ()<UIViewControllerTransitioningDelegate>
 
@@ -18,7 +18,6 @@
 /// 当前设备的方向
 @property (nonatomic, readwrite) UIDeviceOrientation currentOrientation;
 /// 全屏的控制器
-@property (nonatomic, weak) YBPlayerRotationController *fullScrrenVC;
 @property (nonatomic, assign) CGRect snapshootRect;
 @property (nonatomic, assign) CGRect rotateViewRect;
 
@@ -83,21 +82,34 @@
 
 - (void)enterLandscapeFullScreen:(UIInterfaceOrientation)orientation {
     if (self.rotationMode == YBRotationModePortrait) return;
+    [self enterLandscapeFullScreen:orientation completion:nil];
+}
+
+- (void)enterLandscapeFullScreen:(UIInterfaceOrientation)orientation completion:(void (^ __nullable)(void))completion {
+    if (self.rotationMode == YBRotationModePortrait) return;
     if (UIInterfaceOrientationIsLandscape(orientation)) {
         if (self.fullScreen) return;
         if (self.orientationWillChange) {
             self.orientationWillChange(self, self.isFullScreen);
         }
-        YBPlayerRotationController *fullScrrenVC = [[YBPlayerRotationController alloc] init];
+        Class cls = NSClassFromString(@"YBPlayerRotationController");
+        if (self.fullControllerMap.length) {
+            cls = NSClassFromString(_fullControllerMap);
+        }
+        YBPlayerRotationController *fullScrrenVC = [[cls alloc] init];
         fullScrrenVC.orientation = orientation;
         fullScrrenVC.fullScreenMode = self.rotationMode;
         fullScrrenVC.transitioningDelegate = self;
         fullScrrenVC.modalPresentationStyle = UIModalPresentationFullScreen;
+        fullScrrenVC.userinfo = self.userinfo;
         UIWindow *win = [UIApplication sharedApplication].keyWindow;
         [win.rootViewController presentViewController:fullScrrenVC animated:YES completion:^{
             self.fullScreen = YES;
             if (self.orientationDidChanged) {
                 self.orientationDidChanged(self, self.isFullScreen);
+            }
+            if (completion) {
+                completion();
             }
         }];
         self.fullScrrenVC = fullScrrenVC;
@@ -110,6 +122,9 @@
             self.fullScreen = NO;
             if (self.orientationDidChanged) {
                 self.orientationDidChanged(self, self.isFullScreen);
+            }
+            if (completion) {
+                completion();
             }
         }];
     }

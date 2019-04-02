@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - YBPlayerRotationManage (0.1.0)
+  - YBPlayerRotationManage (0.1.1)
 
 DEPENDENCIES:
   - Masonry
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  YBPlayerRotationManage: 20031263314ba5edad7a0d1533be3bf1d2c487c1
+  YBPlayerRotationManage: 230250d56c909d58851f627844f640b3678b7f93
 
 PODFILE CHECKSUM: d92147b2de6a70cdcb7b83b4ce7ec59a41adf539
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.7.0.beta.3

@@ -7,12 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "YBPlayerRotationManage.h"
+#import "YBPlayerRotationUtilities.h"
 
-typedef NS_ENUM(NSInteger,YBTransitionType) {
-    YBTransitionTypePresent = 0,
-    YBTransitionTypeDismiss  = 1
-};
 
 NS_ASSUME_NONNULL_BEGIN
 

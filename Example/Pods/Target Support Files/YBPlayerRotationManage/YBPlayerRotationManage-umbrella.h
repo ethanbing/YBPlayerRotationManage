@@ -14,6 +14,7 @@
 #import "YBPlayerRotationController.h"
 #import "YBPlayerRotationManage.h"
 #import "YBPlayerRotationTransition.h"
+#import "YBPlayerRotationUtilities.h"
 
 FOUNDATION_EXPORT double YBPlayerRotationManageVersionNumber;
 FOUNDATION_EXPORT const unsigned char YBPlayerRotationManageVersionString[];

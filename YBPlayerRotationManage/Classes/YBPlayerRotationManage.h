@@ -7,12 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-/// 全屏的模式
-typedef NS_ENUM(NSUInteger, YBRotationMode) {
-    YBRotationModePortrait, // 竖屏全屏
-    YBRotationModeLandscape // 横屏全屏
-};
+#import "YBPlayerRotationController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,6 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithRotateView:(UIView *)rotateView containerView:(UIView *)containerView;
 /// 小屏状态播放器的容器视图
 @property (nonatomic, weak, readwrite) UIView *containerView;
+//全屏控制器，可以通过fullControllerMap继承重写
+@property (nonatomic, weak) YBPlayerRotationController *fullScrrenVC;
+/** 全屏控制器的映射，就是继承YBPlayerRotationController的类名 */
+@property (nonatomic, copy) NSString *fullControllerMap;
+@property (nonatomic, strong) id userinfo;
 /// 是否全屏
 @property (nonatomic, assign, readonly, getter=isFullScreen) BOOL fullScreen;
 /// 设备方向即将改变
@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) YBRotationMode rotationMode;
 /// 进入横屏全屏状态
 - (void)enterLandscapeFullScreen:(UIInterfaceOrientation)orientation;
+- (void)enterLandscapeFullScreen:(UIInterfaceOrientation)orientation completion:(void (^ __nullable)(void))completion;
 /// 进入竖屏全屏状态
 - (void)enterPortraitFullScreen:(BOOL)fullScreen;
 

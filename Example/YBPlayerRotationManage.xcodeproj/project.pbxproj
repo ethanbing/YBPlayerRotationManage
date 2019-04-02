@@ -323,16 +323,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YBPlayerRotationManage_Example/Pods-YBPlayerRotationManage_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YBPlayerRotationManage/YBPlayerRotationManage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YBPlayerRotationManage.framework",
@@ -513,7 +509,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YBPlayerRotationManage/YBPlayerRotationManage-Prefix.pch";
 				INFOPLIST_FILE = "YBPlayerRotationManage/YBPlayerRotationManage-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YBPlayerRotationManage-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,7 +528,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YBPlayerRotationManage/YBPlayerRotationManage-Prefix.pch";
 				INFOPLIST_FILE = "YBPlayerRotationManage/YBPlayerRotationManage-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YBPlayerRotationManage-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";

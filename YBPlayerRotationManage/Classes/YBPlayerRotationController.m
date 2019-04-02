@@ -10,17 +10,26 @@
 
 @interface YBPlayerRotationController ()
 
+@property (nonatomic, assign) BOOL statusBarHide;
+
 @end
 
 @implementation YBPlayerRotationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _statusBarHide = YES;
     self.view.backgroundColor = [UIColor blackColor];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+}
+
+- (void)needStatusBarHide:(BOOL)hide
+{
+    _statusBarHide = hide;
+    [self setNeedsStatusBarAppearanceUpdate];
 }
 
 - (void)dealloc {
@@ -60,7 +69,7 @@
 }
 
 - (BOOL)prefersStatusBarHidden {
-    return YES;
+    return _statusBarHide;
 }
 
 - (UIStatusBarAnimation)preferredStatusBarUpdateAnimation {

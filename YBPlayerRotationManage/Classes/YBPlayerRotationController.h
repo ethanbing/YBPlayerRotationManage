@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YBPlayerRotationManage.h"
+#import "YBPlayerRotationUtilities.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -17,6 +17,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 设备横屏的方向  UIInterfaceOrientationMaskLandscapeLeft | UIInterfaceOrientationLandscapeRight
 @property (nonatomic, assign) UIInterfaceOrientation orientation;
 @property (nonatomic, assign) YBRotationMode fullScreenMode;
+@property (nonatomic, strong) id userinfo;
+
+/**
+ 隐藏和显示状态栏操作
+
+ @param hide 是否隐藏
+ */
+- (void)needStatusBarHide:(BOOL)hide;
 
 @end
 

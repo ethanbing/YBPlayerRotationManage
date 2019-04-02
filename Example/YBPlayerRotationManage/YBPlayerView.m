@@ -72,7 +72,7 @@
     };
     self.rotationManage.orientationDidChanged = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
         //方向已经改变
-//        weakSelf.fullScreen = isFullScreen;
+        weakSelf.fullScreen = isFullScreen;
     };
 }
 
