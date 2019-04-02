@@ -13,10 +13,9 @@
 		219089F9D724643D4A24407487B6B803 /* YBPlayerRotationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D71D1A828C031305077418DB2FB3BB9D /* YBPlayerRotationTransition.m */; };
 		22BF6781F71A3754FD41BBF62F4DFA2C /* UIViewController+YBPlayerRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA140F97E40B1F2A3DE0BDB76117666 /* UIViewController+YBPlayerRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27F1DAFCBA43BFC893AAB8D70B811B04 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ACDFFCEE9A48790F04B4F550EA0EFEE /* Pods-YBPlayerRotationManage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CEF0F8ADD670729C30E3828D49B1E2 /* Pods-YBPlayerRotationManage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ACDFFCEE9A48790F04B4F550EA0EFEE /* Pods-YBPlayerRotationManage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F761DFD6FE2560C750ED2CFB138DE88 /* Pods-YBPlayerRotationManage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FBE88AB6732B2F224FCEA7F490757EB /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		357FF480909B78B01A5BBA13263779DE /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45893233E15598B41CF895A335DCB924 /* Pods-YBPlayerRotationManage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEA210601EE0A7E04758AE98C65654B /* Pods-YBPlayerRotationManage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FDED973490EB6A8908D2671154FDB89 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57DFE313C53DA21975AD94A81F166BD1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */; };
 		62449CA0C38A2DC85B0982B25394E90E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */; };
@@ -24,13 +23,11 @@
 		63C22A97B892045474C99EBCF60FDFB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
 		67843D6939DCFB92F851C88AD853EB8B /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68E523D6AD47B62D3729E538AEBF7461 /* YBPlayerRotationManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 382903D1C9DBF1CB996D93EA17F02328 /* YBPlayerRotationManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D258C974C3C9950FF7DC44DA58DE8AB /* Pods-YBPlayerRotationManage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6FFAF06D75B0C2BA08E408C244207 /* Pods-YBPlayerRotationManage_Tests-dummy.m */; };
 		6F371D8F22EF3B4C385CC05AE58D92E1 /* YBPlayerRotationTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C66D724BD7D305B7F6D3F2B46201D0 /* YBPlayerRotationTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73300003438DC542B9D0546D73877707 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */; };
 		7390990ADCBF9AB82DCEC400A01D6F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		75C5B6C21E0CC4898AE48E52DDA91375 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */; };
 		8267BAC0ADDDEEE5B5F11456B674448C /* YBPlayerRotationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C3997001D0ABD42F07F99EC982598 /* YBPlayerRotationController.m */; };
-		901C0B6363F4F7B211EF3CB50DB5CD77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		9269E802D3E20C338BDDFF5DA07029E5 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94C1561BC701BB0EA90A7DD26B5D2D4F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BA3CDC3FC83C9CB3028B8FDCCB3B494 /* YBPlayerRotationManage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A05B1E77839F547F3A8CE9362D99CE /* YBPlayerRotationManage-dummy.m */; };
@@ -38,7 +35,7 @@
 		A98413C6607F08050A4E1E4D4DBADD94 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E145DFF9033B5609061BCCC32A734C7 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B893F223F0DB21B63226A6F21AC263E6 /* UIViewController+YBPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DB805A2336BEF1ED6314CE89455C0 /* UIViewController+YBPlayerRotation.m */; };
 		BC9D138592743C6138E5EEBDCF679053 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */; };
-		BD4C4622A140A5EC13540C9FEDA315F5 /* Pods-YBPlayerRotationManage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D1A3E41E4D1348108FF7226EC643CD /* Pods-YBPlayerRotationManage_Example-dummy.m */; };
+		BD4C4622A140A5EC13540C9FEDA315F5 /* Pods-YBPlayerRotationManage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8498022421F63C2C5CE1BC35C130DBD /* Pods-YBPlayerRotationManage_Example-dummy.m */; };
 		C5305C30EF88CDEFD1BFDE547F0B0932 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C58C96ECEB8DA48FD48BF98210048834 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */; };
 		C8B2C44773021FE52AE8D492B90F5787 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,88 +67,72 @@
 			remoteGlobalIDString = C8E181B809139CF3BC757748A5B253D2;
 			remoteInfo = YBPlayerRotationManage;
 		};
-		B42D8F7D2BCE91F2F541EB65D6931B2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F4A5361A058CE904E6EEB9C9130FD57;
-			remoteInfo = "Pods-YBPlayerRotationManage_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		0BD0CBA182693D51FC3AA43AE3CB83AC /* Pods-YBPlayerRotationManage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPlayerRotationManage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F761DFD6FE2560C750ED2CFB138DE88 /* Pods-YBPlayerRotationManage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBPlayerRotationManage_Example-umbrella.h"; sourceTree = "<group>"; };
 		1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		266270F46FD6D8E798173DEC66BEECE4 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		28CEF0F8ADD670729C30E3828D49B1E2 /* Pods-YBPlayerRotationManage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBPlayerRotationManage_Example-umbrella.h"; sourceTree = "<group>"; };
-		291133E832232678C34CE6A5C0365451 /* Pods-YBPlayerRotationManage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBPlayerRotationManage_Tests.modulemap"; sourceTree = "<group>"; };
-		2A20FDE75BEEC1D1BC600FBF2B7BB5D7 /* Pods_YBPlayerRotationManage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBPlayerRotationManage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		2DD27D1479BD743C23F564F37276618A /* Pods-YBPlayerRotationManage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBPlayerRotationManage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2E9C3CD0C87A4BC046B80B3F1A6939B1 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		32C08F84DE42980580FF60858449314A /* Pods-YBPlayerRotationManage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBPlayerRotationManage_Example-Info.plist"; sourceTree = "<group>"; };
 		382903D1C9DBF1CB996D93EA17F02328 /* YBPlayerRotationManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YBPlayerRotationManage.h; path = YBPlayerRotationManage/Classes/YBPlayerRotationManage.h; sourceTree = "<group>"; };
 		3E3750CAAFC1618F9C56DEEFF237472C /* YBPlayerRotationManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YBPlayerRotationManage.m; path = YBPlayerRotationManage/Classes/YBPlayerRotationManage.m; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43BA56A061873718EC06171526FE1A00 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		4589923591F94E1B1582943AE7A880FF /* Pods-YBPlayerRotationManage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPlayerRotationManage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4670E512925DD86970EEFCCC701DD26A /* YBPlayerRotationManage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YBPlayerRotationManage-Info.plist"; sourceTree = "<group>"; };
+		48640D98D678EA9C71E2881F33A76BDC /* Pods_YBPlayerRotationManage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YBPlayerRotationManage_Example.framework; path = "Pods-YBPlayerRotationManage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		5483BD15D9D566EE8E91BA16708951F7 /* Pods-YBPlayerRotationManage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBPlayerRotationManage_Example.modulemap"; sourceTree = "<group>"; };
 		57C66D724BD7D305B7F6D3F2B46201D0 /* YBPlayerRotationTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YBPlayerRotationTransition.h; path = YBPlayerRotationManage/Classes/YBPlayerRotationTransition.h; sourceTree = "<group>"; };
-		591ECD0AA299D6416EA5F754747C02BB /* Pods-YBPlayerRotationManage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBPlayerRotationManage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		5D76D705E11F62BCFAF72F231F025E1C /* Pods-YBPlayerRotationManage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPlayerRotationManage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6813C0CE24ED3A46F17CA0517513D183 /* YBPlayerRotationManage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YBPlayerRotationManage.framework; path = YBPlayerRotationManage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BA02731F4B2138C7D7E24A82C27168 /* YBPlayerRotationManage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBPlayerRotationManage.xcconfig; sourceTree = "<group>"; };
-		6B45E554F199A202B499A03FBC72C2B2 /* YBPlayerRotationManage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YBPlayerRotationManage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B45E554F199A202B499A03FBC72C2B2 /* YBPlayerRotationManage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YBPlayerRotationManage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		6DA140F97E40B1F2A3DE0BDB76117666 /* UIViewController+YBPlayerRotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YBPlayerRotation.h"; path = "YBPlayerRotationManage/Classes/UIViewController+YBPlayerRotation.h"; sourceTree = "<group>"; };
-		742F8D87D33D845BA96CC1C169D0D24D /* Pods-YBPlayerRotationManage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBPlayerRotationManage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		7B45B1380C0C8D2882253E6AF2CDC3EE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7A593CDAAE3C17FD2092CA19AD909F /* YBPlayerRotationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YBPlayerRotationController.h; path = YBPlayerRotationManage/Classes/YBPlayerRotationController.h; sourceTree = "<group>"; };
-		7CEA210601EE0A7E04758AE98C65654B /* Pods-YBPlayerRotationManage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBPlayerRotationManage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7E145DFF9033B5609061BCCC32A734C7 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		81D1A3E41E4D1348108FF7226EC643CD /* Pods-YBPlayerRotationManage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBPlayerRotationManage_Example-dummy.m"; sourceTree = "<group>"; };
-		84E6FFAF06D75B0C2BA08E408C244207 /* Pods-YBPlayerRotationManage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBPlayerRotationManage_Tests-dummy.m"; sourceTree = "<group>"; };
-		865B0BF3E8376C4A024A8BBAB02A1A2E /* YBPlayerRotationManage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YBPlayerRotationManage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B338C03BF73AA058BFB40A0FA268D1 /* Pods-YBPlayerRotationManage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPlayerRotationManage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		8C51C2E092896AC6637135058D35FFEF /* Pods-YBPlayerRotationManage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPlayerRotationManage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D2C3997001D0ABD42F07F99EC982598 /* YBPlayerRotationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YBPlayerRotationController.m; path = YBPlayerRotationManage/Classes/YBPlayerRotationController.m; sourceTree = "<group>"; };
 		8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		98A41B2A613993F5BABD4A2F3C4243F5 /* Pods-YBPlayerRotationManage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBPlayerRotationManage_Tests-Info.plist"; sourceTree = "<group>"; };
-		9AB3E6BF51752BB9D4BA3A450D97FF56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AB3E6BF51752BB9D4BA3A450D97FF56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		A3EC0121FDBC530599046D1A12C9E879 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		B0EFD6478B104E26A037C1DECCF12746 /* Pods-YBPlayerRotationManage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPlayerRotationManage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		B465779B011CB88C3E47E3B85D0D9A9D /* YBPlayerRotationManage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBPlayerRotationManage-prefix.pch"; sourceTree = "<group>"; };
 		B67E2CD983960D20666383EF7DC681D7 /* YBPlayerRotationManage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YBPlayerRotationManage.modulemap; sourceTree = "<group>"; };
 		B6A05B1E77839F547F3A8CE9362D99CE /* YBPlayerRotationManage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBPlayerRotationManage-dummy.m"; sourceTree = "<group>"; };
-		B6ADCE44E7C4ECC3B18834A54ADBE53C /* Pods-YBPlayerRotationManage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBPlayerRotationManage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		C472DF8C27160466B3F50E1F3EE2AF4C /* Pods-YBPlayerRotationManage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBPlayerRotationManage_Example.modulemap"; sourceTree = "<group>"; };
+		C6D2E050D5C0B4B3FC63ECFAD8A42F4B /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD414E4EDE5393126B8F693C723076A /* Pods-YBPlayerRotationManage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBPlayerRotationManage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		D4DC39F5831E70FCD34CEB81EB8326CC /* Pods-YBPlayerRotationManage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBPlayerRotationManage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D71D1A828C031305077418DB2FB3BB9D /* YBPlayerRotationTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YBPlayerRotationTransition.m; path = YBPlayerRotationManage/Classes/YBPlayerRotationTransition.m; sourceTree = "<group>"; };
 		D82DB805A2336BEF1ED6314CE89455C0 /* UIViewController+YBPlayerRotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YBPlayerRotation.m"; path = "YBPlayerRotationManage/Classes/UIViewController+YBPlayerRotation.m"; sourceTree = "<group>"; };
 		D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		E193690267D3B09D5B1AAAD04A49D7C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E193690267D3B09D5B1AAAD04A49D7C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E8498022421F63C2C5CE1BC35C130DBD /* Pods-YBPlayerRotationManage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBPlayerRotationManage_Example-dummy.m"; sourceTree = "<group>"; };
 		EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F1D1F4093D660166CA8B309BD8B7CBF6 /* Pods-YBPlayerRotationManage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBPlayerRotationManage_Example-Info.plist"; sourceTree = "<group>"; };
 		F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		F82B234F4F5BFC90ADFC13F2FCF6192E /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		F896A9948900974B264D154DF3C93C0A /* Pods-YBPlayerRotationManage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBPlayerRotationManage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F8B2DB815294446C494C353C16E784ED /* YBPlayerRotationManage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBPlayerRotationManage-umbrella.h"; sourceTree = "<group>"; };
-		FA9EB7CFDEDACE049B1589B220991A70 /* Pods_YBPlayerRotationManage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBPlayerRotationManage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFCBE89EDDCE445DC148E3743281794C /* Pods-YBPlayerRotationManage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBPlayerRotationManage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,14 +153,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3FC9AAFF9FCDDBE110C230EF653B7A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				901C0B6363F4F7B211EF3CB50DB5CD77 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DA4AA0AF8D5851FB618F5DBBC60BC378 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,17 +164,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11E4369951F65E189A7E96A7D652BD9C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7B45B1380C0C8D2882253E6AF2CDC3EE /* Masonry.framework */,
-				FA9EB7CFDEDACE049B1589B220991A70 /* Pods_YBPlayerRotationManage_Example.framework */,
-				2A20FDE75BEEC1D1BC600FBF2B7BB5D7 /* Pods_YBPlayerRotationManage_Tests.framework */,
-				865B0BF3E8376C4A024A8BBAB02A1A2E /* YBPlayerRotationManage.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +184,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		43C1FB4B199DC4A5CCAD24068A0D495F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4311D708FE9633B310C69BE1E859A2 /* Pods-YBPlayerRotationManage_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		5769C7C9B087E2329D294F640305B12E /* Pod */ = {
@@ -260,23 +230,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		675B2287E27292CF5BF57345A04E4640 /* Pods-YBPlayerRotationManage_Example */ = {
-			isa = PBXGroup;
-			children = (
-				C472DF8C27160466B3F50E1F3EE2AF4C /* Pods-YBPlayerRotationManage_Example.modulemap */,
-				FFCBE89EDDCE445DC148E3743281794C /* Pods-YBPlayerRotationManage_Example-acknowledgements.markdown */,
-				F896A9948900974B264D154DF3C93C0A /* Pods-YBPlayerRotationManage_Example-acknowledgements.plist */,
-				81D1A3E41E4D1348108FF7226EC643CD /* Pods-YBPlayerRotationManage_Example-dummy.m */,
-				B6ADCE44E7C4ECC3B18834A54ADBE53C /* Pods-YBPlayerRotationManage_Example-frameworks.sh */,
-				32C08F84DE42980580FF60858449314A /* Pods-YBPlayerRotationManage_Example-Info.plist */,
-				28CEF0F8ADD670729C30E3828D49B1E2 /* Pods-YBPlayerRotationManage_Example-umbrella.h */,
-				5D76D705E11F62BCFAF72F231F025E1C /* Pods-YBPlayerRotationManage_Example.debug.xcconfig */,
-				0BD0CBA182693D51FC3AA43AE3CB83AC /* Pods-YBPlayerRotationManage_Example.release.xcconfig */,
-			);
-			name = "Pods-YBPlayerRotationManage_Example";
-			path = "Target Support Files/Pods-YBPlayerRotationManage_Example";
-			sourceTree = "<group>";
-		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,6 +250,16 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YBPlayerRotationManage";
+			sourceTree = "<group>";
+		};
+		7ACBD30ADB3AB0B3AB4CD5DA5DA4A0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2E050D5C0B4B3FC63ECFAD8A42F4B /* Masonry.framework */,
+				48640D98D678EA9C71E2881F33A76BDC /* Pods_YBPlayerRotationManage_Example.framework */,
+				6813C0CE24ED3A46F17CA0517513D183 /* YBPlayerRotationManage.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8E50BF0E4E86F38E1773098A5EDB39F2 /* Masonry */ = {
@@ -329,23 +292,25 @@
 				4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */,
 				3383BD59F0CA45F38B2C4285AD319AC1 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		95C67ACC7E12E060F6FE4F1CABB87542 /* Pods-YBPlayerRotationManage_Tests */ = {
+		CA4311D708FE9633B310C69BE1E859A2 /* Pods-YBPlayerRotationManage_Example */ = {
 			isa = PBXGroup;
 			children = (
-				291133E832232678C34CE6A5C0365451 /* Pods-YBPlayerRotationManage_Tests.modulemap */,
-				742F8D87D33D845BA96CC1C169D0D24D /* Pods-YBPlayerRotationManage_Tests-acknowledgements.markdown */,
-				591ECD0AA299D6416EA5F754747C02BB /* Pods-YBPlayerRotationManage_Tests-acknowledgements.plist */,
-				84E6FFAF06D75B0C2BA08E408C244207 /* Pods-YBPlayerRotationManage_Tests-dummy.m */,
-				98A41B2A613993F5BABD4A2F3C4243F5 /* Pods-YBPlayerRotationManage_Tests-Info.plist */,
-				7CEA210601EE0A7E04758AE98C65654B /* Pods-YBPlayerRotationManage_Tests-umbrella.h */,
-				8C51C2E092896AC6637135058D35FFEF /* Pods-YBPlayerRotationManage_Tests.debug.xcconfig */,
-				4589923591F94E1B1582943AE7A880FF /* Pods-YBPlayerRotationManage_Tests.release.xcconfig */,
+				5483BD15D9D566EE8E91BA16708951F7 /* Pods-YBPlayerRotationManage_Example.modulemap */,
+				D4DC39F5831E70FCD34CEB81EB8326CC /* Pods-YBPlayerRotationManage_Example-acknowledgements.markdown */,
+				CAD414E4EDE5393126B8F693C723076A /* Pods-YBPlayerRotationManage_Example-acknowledgements.plist */,
+				E8498022421F63C2C5CE1BC35C130DBD /* Pods-YBPlayerRotationManage_Example-dummy.m */,
+				2DD27D1479BD743C23F564F37276618A /* Pods-YBPlayerRotationManage_Example-frameworks.sh */,
+				F1D1F4093D660166CA8B309BD8B7CBF6 /* Pods-YBPlayerRotationManage_Example-Info.plist */,
+				0F761DFD6FE2560C750ED2CFB138DE88 /* Pods-YBPlayerRotationManage_Example-umbrella.h */,
+				B0EFD6478B104E26A037C1DECCF12746 /* Pods-YBPlayerRotationManage_Example.debug.xcconfig */,
+				81B338C03BF73AA058BFB40A0FA268D1 /* Pods-YBPlayerRotationManage_Example.release.xcconfig */,
 			);
-			name = "Pods-YBPlayerRotationManage_Tests";
-			path = "Target Support Files/Pods-YBPlayerRotationManage_Tests";
+			name = "Pods-YBPlayerRotationManage_Example";
+			path = "Target Support Files/Pods-YBPlayerRotationManage_Example";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -355,18 +320,9 @@
 				5F7168FB8013D83AF58E07201C6CC972 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				11E4369951F65E189A7E96A7D652BD9C /* Products */,
-				D58872F7C50DF912F246D7A912A7F19A /* Targets Support Files */,
+				7ACBD30ADB3AB0B3AB4CD5DA5DA4A0EC /* Products */,
+				43C1FB4B199DC4A5CCAD24068A0D495F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D58872F7C50DF912F246D7A912A7F19A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				675B2287E27292CF5BF57345A04E4640 /* Pods-YBPlayerRotationManage_Example */,
-				95C67ACC7E12E060F6FE4F1CABB87542 /* Pods-YBPlayerRotationManage_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
@@ -424,14 +380,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8E03EC3B3FB2C63261EA1CA5EBD1EA2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45893233E15598B41CF895A335DCB924 /* Pods-YBPlayerRotationManage_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -452,7 +400,7 @@
 			);
 			name = "Pods-YBPlayerRotationManage_Example";
 			productName = "Pods-YBPlayerRotationManage_Example";
-			productReference = FA9EB7CFDEDACE049B1589B220991A70 /* Pods_YBPlayerRotationManage_Example.framework */;
+			productReference = 48640D98D678EA9C71E2881F33A76BDC /* Pods_YBPlayerRotationManage_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		64908377FC47CBE2E0EA0FA3CC30D3C1 /* Masonry */ = {
@@ -470,7 +418,7 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 7B45B1380C0C8D2882253E6AF2CDC3EE /* Masonry.framework */;
+			productReference = C6D2E050D5C0B4B3FC63ECFAD8A42F4B /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C8E181B809139CF3BC757748A5B253D2 /* YBPlayerRotationManage */ = {
@@ -488,26 +436,7 @@
 			);
 			name = YBPlayerRotationManage;
 			productName = YBPlayerRotationManage;
-			productReference = 865B0BF3E8376C4A024A8BBAB02A1A2E /* YBPlayerRotationManage.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DE5F809F6F1E2EE0126632C21CDED75A /* Pods-YBPlayerRotationManage_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E252D92F83219FC104F75C4E61E8F351 /* Build configuration list for PBXNativeTarget "Pods-YBPlayerRotationManage_Tests" */;
-			buildPhases = (
-				D8E03EC3B3FB2C63261EA1CA5EBD1EA2 /* Headers */,
-				FA2D32B71D3531151441873C1CC75732 /* Sources */,
-				A3FC9AAFF9FCDDBE110C230EF653B7A7 /* Frameworks */,
-				D72FD8689417EB63D3CB29D9D95019A0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75ABDEB5E8AD19CFFB1504C6D04B0997 /* PBXTargetDependency */,
-			);
-			name = "Pods-YBPlayerRotationManage_Tests";
-			productName = "Pods-YBPlayerRotationManage_Tests";
-			productReference = 2A20FDE75BEEC1D1BC600FBF2B7BB5D7 /* Pods_YBPlayerRotationManage_Tests.framework */;
+			productReference = 6813C0CE24ED3A46F17CA0517513D183 /* YBPlayerRotationManage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -517,24 +446,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 11E4369951F65E189A7E96A7D652BD9C /* Products */;
+			productRefGroup = 7ACBD30ADB3AB0B3AB4CD5DA5DA4A0EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				64908377FC47CBE2E0EA0FA3CC30D3C1 /* Masonry */,
 				1F4A5361A058CE904E6EEB9C9130FD57 /* Pods-YBPlayerRotationManage_Example */,
-				DE5F809F6F1E2EE0126632C21CDED75A /* Pods-YBPlayerRotationManage_Tests */,
 				C8E181B809139CF3BC757748A5B253D2 /* YBPlayerRotationManage */,
 			);
 		};
@@ -556,13 +483,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		94F1D38151CB787DCDF119BD0454392E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D72FD8689417EB63D3CB29D9D95019A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -610,23 +530,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA2D32B71D3531151441873C1CC75732 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D258C974C3C9950FF7DC44DA58DE8AB /* Pods-YBPlayerRotationManage_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		75ABDEB5E8AD19CFFB1504C6D04B0997 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-YBPlayerRotationManage_Example";
-			target = 1F4A5361A058CE904E6EEB9C9130FD57 /* Pods-YBPlayerRotationManage_Example */;
-			targetProxy = B42D8F7D2BCE91F2F541EB65D6931B2B /* PBXContainerItemProxy */;
-		};
 		ABE64DF45525E9CFEC0B63EC4042CA0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
@@ -644,7 +550,7 @@
 /* Begin XCBuildConfiguration section */
 		0010DE2FAD71CDF9080F782B760AD0CA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D76D705E11F62BCFAF72F231F025E1C /* Pods-YBPlayerRotationManage_Example.debug.xcconfig */;
+			baseConfigurationReference = B0EFD6478B104E26A037C1DECCF12746 /* Pods-YBPlayerRotationManage_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -679,7 +585,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -729,7 +634,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -737,7 +643,7 @@
 		};
 		1EC2F3B7EF6C2EF1A6B29693A2C4D5FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BD0CBA182693D51FC3AA43AE3CB83AC /* Pods-YBPlayerRotationManage_Example.release.xcconfig */;
+			baseConfigurationReference = 81B338C03BF73AA058BFB40A0FA268D1 /* Pods-YBPlayerRotationManage_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -769,11 +675,41 @@
 			};
 			name = Release;
 		};
+		363AB5C3936FF689FCAC10C5A99AA6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BA02731F4B2138C7D7E24A82C27168 /* YBPlayerRotationManage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YBPlayerRotationManage/YBPlayerRotationManage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YBPlayerRotationManage/YBPlayerRotationManage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YBPlayerRotationManage/YBPlayerRotationManage.modulemap";
+				PRODUCT_MODULE_NAME = YBPlayerRotationManage;
+				PRODUCT_NAME = YBPlayerRotationManage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -834,7 +770,7 @@
 			};
 			name = Debug;
 		};
-		5FDF65D9B4FBBBB6C65FF63F19D022D4 /* Release */ = {
+		5EC752D5B9E7E5F7D14A7C7C6D4E2C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69BA02731F4B2138C7D7E24A82C27168 /* YBPlayerRotationManage.xcconfig */;
 			buildSettings = {
@@ -850,7 +786,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YBPlayerRotationManage/YBPlayerRotationManage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YBPlayerRotationManage/YBPlayerRotationManage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YBPlayerRotationManage/YBPlayerRotationManage.modulemap";
 				PRODUCT_MODULE_NAME = YBPlayerRotationManage;
@@ -859,11 +795,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7624FBD8D278F7CE70FF51C4C1574C39 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -926,103 +861,6 @@
 			};
 			name = Debug;
 		};
-		85F719C4F45E9B7893870CE26778CFF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C51C2E092896AC6637135058D35FFEF /* Pods-YBPlayerRotationManage_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YBPlayerRotationManage_Tests/Pods-YBPlayerRotationManage_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YBPlayerRotationManage_Tests/Pods-YBPlayerRotationManage_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8EA13AF45FC1FD5881923A21BE3DEB84 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4589923591F94E1B1582943AE7A880FF /* Pods-YBPlayerRotationManage_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YBPlayerRotationManage_Tests/Pods-YBPlayerRotationManage_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YBPlayerRotationManage_Tests/Pods-YBPlayerRotationManage_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9FC27F1013139DBC046A4CBC2DD16F14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BA02731F4B2138C7D7E24A82C27168 /* YBPlayerRotationManage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YBPlayerRotationManage/YBPlayerRotationManage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YBPlayerRotationManage/YBPlayerRotationManage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YBPlayerRotationManage/YBPlayerRotationManage.modulemap";
-				PRODUCT_MODULE_NAME = YBPlayerRotationManage;
-				PRODUCT_NAME = YBPlayerRotationManage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1038,8 +876,8 @@
 		3CE28776BE63D3EC9D376C3707867ECE /* Build configuration list for PBXNativeTarget "YBPlayerRotationManage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FC27F1013139DBC046A4CBC2DD16F14 /* Debug */,
-				5FDF65D9B4FBBBB6C65FF63F19D022D4 /* Release */,
+				5EC752D5B9E7E5F7D14A7C7C6D4E2C82 /* Debug */,
+				363AB5C3936FF689FCAC10C5A99AA6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1058,15 +896,6 @@
 			buildConfigurations = (
 				7DA7A34CB8C2716480D01FD590D2C91A /* Debug */,
 				7624FBD8D278F7CE70FF51C4C1574C39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E252D92F83219FC104F75C4E61E8F351 /* Build configuration list for PBXNativeTarget "Pods-YBPlayerRotationManage_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85F719C4F45E9B7893870CE26778CFF4 /* Debug */,
-				8EA13AF45FC1FD5881923A21BE3DEB84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

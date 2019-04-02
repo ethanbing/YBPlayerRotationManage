@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14558CFA6FB56BDC3F7DDE6B /* Pods_YBPlayerRotationManage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700E7026DBEF2F680180C8F6 /* Pods_YBPlayerRotationManage_Tests.framework */; };
 		261483660B3CF9AB04D9B780 /* Pods_YBPlayerRotationManage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95796027F62194940736A43 /* Pods_YBPlayerRotationManage_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -63,9 +62,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C35A4E9908704BBBF73FD48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A2D0A9903A85AF1E88C973AB /* Pods-YBPlayerRotationManage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBPlayerRotationManage_Tests.release.xcconfig"; path = "Target Support Files/Pods-YBPlayerRotationManage_Tests/Pods-YBPlayerRotationManage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A95796027F62194940736A43 /* Pods_YBPlayerRotationManage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBPlayerRotationManage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A96A808B583D85F4D0633071 /* Pods-YBPlayerRotationManage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBPlayerRotationManage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YBPlayerRotationManage_Tests/Pods-YBPlayerRotationManage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABDBB26A70C1E4D7948AD531 /* Pods-YBPlayerRotationManage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBPlayerRotationManage_Example.release.xcconfig"; path = "Target Support Files/Pods-YBPlayerRotationManage_Example/Pods-YBPlayerRotationManage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B285EB96C47DE28473C135D3 /* Pods-YBPlayerRotationManage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBPlayerRotationManage_Example.debug.xcconfig"; path = "Target Support Files/Pods-YBPlayerRotationManage_Example/Pods-YBPlayerRotationManage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B9412680225207FD00121A55 /* YBPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBPlayerView.h; sourceTree = "<group>"; };
@@ -91,7 +88,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				14558CFA6FB56BDC3F7DDE6B /* Pods_YBPlayerRotationManage_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,8 +191,6 @@
 			children = (
 				B285EB96C47DE28473C135D3 /* Pods-YBPlayerRotationManage_Example.debug.xcconfig */,
 				ABDBB26A70C1E4D7948AD531 /* Pods-YBPlayerRotationManage_Example.release.xcconfig */,
-				A96A808B583D85F4D0633071 /* Pods-YBPlayerRotationManage_Tests.debug.xcconfig */,
-				A2D0A9903A85AF1E88C973AB /* Pods-YBPlayerRotationManage_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -227,7 +221,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YBPlayerRotationManage_Tests" */;
 			buildPhases = (
-				E518F3E24FDF3DD967003FFE /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -347,28 +340,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YBPlayerRotationManage_Example/Pods-YBPlayerRotationManage_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E518F3E24FDF3DD967003FFE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YBPlayerRotationManage_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -572,7 +543,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A96A808B583D85F4D0633071 /* Pods-YBPlayerRotationManage_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -596,7 +566,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2D0A9903A85AF1E88C973AB /* Pods-YBPlayerRotationManage_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

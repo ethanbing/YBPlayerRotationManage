@@ -20,6 +20,39 @@ it, simply add the following line to your Podfile:
 pod 'YBPlayerRotationManage'
 ```
 
+## Usage
+
+### 说明：适用于播放器全屏控制
+
+#### 1、在播放器内部添加成员变量，并初始化，传入播放器旋转的view和播放器所承载的view
+
+```objective-c
+self.rotationManage = [[YBPlayerRotationManage alloc] initWithRotateViewView:self containerView:self.superview];
+//    self.rotationManage.rotationMode = YBRotationModeLandscape;//默认就是横屏模式
+self.rotationManage.orientationWillChange = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
+  //方向将要改变
+};
+self.rotationManage.orientationDidChanged = ^(YBPlayerRotationManage * _Nonnull observer, BOOL isFullScreen) {
+  //方向已经改变
+
+};
+```
+
+#### 2、添加全屏和小屏的切换，例如：
+
+```objective-c
+- (void)fullBtnClick:(UIButton *)btn
+{
+    if (btn.selected) {
+        [self.rotationManage enterLandscapeFullScreen:UIInterfaceOrientationPortrait];
+    }else{
+        [self.rotationManage enterLandscapeFullScreen:UIInterfaceOrientationLandscapeRight];
+    }
+}
+```
+
+#### 然后就完成了，欧耶！！！自带旋转监听，全自动旋转播放器完成
+
 ## Author
 
 380711712@qq.com, 380711712@qq.com
