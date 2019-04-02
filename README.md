@@ -5,11 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/YBPlayerRotationManage.svg?style=flat)](https://cocoapods.org/pods/YBPlayerRotationManage)
 [![Platform](https://img.shields.io/cocoapods/p/YBPlayerRotationManage.svg?style=flat)](https://cocoapods.org/pods/YBPlayerRotationManage)
 
-## Example
+## 说明：
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+播放器自动全屏控制，简单到极致，两行代码搞定
 
 ## Installation
 
@@ -21,8 +19,6 @@ pod 'YBPlayerRotationManage'
 ```
 
 ## Usage
-
-### 说明：适用于播放器全屏控制
 
 #### 1、在播放器内部添加成员变量，并初始化，传入播放器旋转的view和播放器所承载的view
 
